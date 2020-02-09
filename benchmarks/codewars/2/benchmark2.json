@@ -1,0 +1,18 @@
+{
+  "id": 2,
+  "methodName": "numberToString",
+  "paramNames": [
+    "num"
+  ],
+  "srcTypes": [
+    "java.lang.Integer"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "java.lang"
+  ],
+  "libs": [
+    "/usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar"
+  ],
+  "testPath": "benchmarks/codewars/2/TestSource.java"
+}
