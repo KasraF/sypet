@@ -1,5 +1,5 @@
 {
-  "id": 3,
+  "id": 6,
   "methodName": "reverse",
   "paramNames": [
     "s"
@@ -12,7 +12,7 @@
     "java.lang"
   ],
   "libs": [
-    "/usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar"
+    "./lib/rt7.jar"
   ],
   "testPath": "benchmarks/codewars/6/TestSource.java"
 }

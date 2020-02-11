@@ -1,8 +1,9 @@
 {
-  "id": 3,
+  "id": 8,
   "methodName": "bonusTime",
   "paramNames": [
-    "salary", "bonus"
+    "salary",
+    "bonus"
   ],
   "srcTypes": [
     "java.lang.Integer",
@@ -13,7 +14,7 @@
     "java.lang"
   ],
   "libs": [
-    "/usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar"
+    "./lib/rt7.jar"
   ],
   "testPath": "benchmarks/codewars/8/TestSource.java"
 }
