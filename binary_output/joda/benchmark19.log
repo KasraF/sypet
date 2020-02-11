@@ -1,0 +1,54 @@
+Buildfile: /home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/build.xml
+
+sypet:
+     [java]         ____     ___      __
+     [java]        / __/_ __/ _ \___ / /
+     [java]       _\ \/ // / ___/ -_) __/
+     [java]      /___/\_, /_/   \__/\__/
+     [java]          /___/              
+     [java] ----------Options
+     [java] Timeout:		15 (seconds)
+     [java] Pruning:		ON
+     [java] Objective Function:	ON
+     [java] Round Robin:	ON
+     [java] ----------/home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/benchmarks/joda/19/benchmark19.json
+     [java] Benchmark Id: 19
+     [java] Method name: getDayFromString
+     [java] Packages: [org.joda.time]
+     [java] Libraries: [./lib/joda-time-2.8.2.jar]
+     [java] Source type(s): [java.lang.String, java.lang.String]
+     [java] Target type: int
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.SealedObject is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: org.joda.convert.ToString is a phantom class!
+     [java] Warning: org.joda.convert.FromString is a phantom class!
+     [java] Exception in thread "main" com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+     [java] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:200)
+     [java] 	at com.google.gson.Gson.fromJson(Gson.java:810)
+     [java] 	at com.google.gson.Gson.fromJson(Gson.java:775)
+     [java] 	at com.google.gson.Gson.fromJson(Gson.java:724)
+     [java] 	at com.google.gson.Gson.fromJson(Gson.java:696)
+     [java] 	at edu.utexas.bow4j.model.Item.readFromFile(Item.java:38)
+     [java] 	at edu.utexas.bow4j.CorpusLoader.loadFile(CorpusLoader.java:51)
+     [java] 	at edu.utexas.bow4j.CorpusLoader.loadDirectory(CorpusLoader.java:44)
+     [java] 	at edu.utexas.bow4j.CorpusLoader.load(CorpusLoader.java:24)
+     [java] 	at edu.utexas.hunter.synthesis.NlpService.init(NlpService.java:47)
+     [java] 	at edu.utexas.hunter.synthesis.test.Experiment.main(Experiment.java:228)
+     [java] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+     [java] 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:387)
+     [java] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:189)
+     [java] 	... 10 more
+
+BUILD FAILED
+/home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/build.xml:8: Java returned: 1
+
+Total time: 2 seconds

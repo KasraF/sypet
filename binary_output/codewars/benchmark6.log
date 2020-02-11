@@ -1,0 +1,104 @@
+Buildfile: /home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/build.xml
+
+sypet:
+     [java]         ____     ___      __
+     [java]        / __/_ __/ _ \___ / /
+     [java]       _\ \/ // / ___/ -_) __/
+     [java]      /___/\_, /_/   \__/\__/
+     [java]          /___/              
+     [java] ----------Options
+     [java] Timeout:		15 (seconds)
+     [java] Pruning:		ON
+     [java] Objective Function:	ON
+     [java] Round Robin:	ON
+     [java] ----------/home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/benchmarks/codewars/6/benchmark6.json
+     [java] Benchmark Id: 6
+     [java] Method name: reverse
+     [java] Packages: [java.lang]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.lang.String]
+     [java] Target type: java.lang.String
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] PetriNet for path length: 1 [places: 41 ; transitions: 489 ; edges: 1170]
+     [java] PetriNet for path length: 2 [places: 106 ; transitions: 971 ; edges: 2339]
+     [java] PetriNet for path length: 3 [places: 111 ; transitions: 1002 ; edges: 2420]
+     [java] PetriNet for path length: 4 [places: 112 ; transitions: 1004 ; edges: 2424]
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var77 = java.lang.Class.forName(s);java.lang.String sypet_var78 = sypet_var77.getSimpleName();return sypet_var78;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var83 = java.lang.Class.forName(s);java.lang.String sypet_var84 = sypet_var83.getCanonicalName();return sypet_var84;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var89 = java.lang.Class.forName(s);java.lang.String sypet_var90 = sypet_var89.getName();return sypet_var90;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------Statistics (time in milliseconds)----------
+     [java] Benchmark Id: 6
+     [java] Sketch Generation Time: 390.035891
+     [java] Sketch Completion Time: 53.003371
+     [java] Compilation Time: 5234.623127999998
+     [java] Running Test cases Time: 20.434731000000006
+     [java] Synthesis Time: 463.473993
+     [java] Total Time: 5698.097120999998
+     [java] Number of components: 3
+     [java] Number of holes: 4
+     [java] Number of completed programs: 224
+     [java] Number of sketches: 110
+     [java] 
+     [java] Solution:
+     [java]  java.lang.StringBuffer sypet_var318 = new java.lang.StringBuffer(s);
+     [java]  java.lang.StringBuffer sypet_var319 = sypet_var318.reverse();
+     [java]  java.lang.String sypet_var320 = new java.lang.String(sypet_var319);
+     [java]  return sypet_var320;
+     [java]  
+     [java] --------------------------------------------------------
+
+BUILD SUCCESSFUL
+Total time: 11 seconds

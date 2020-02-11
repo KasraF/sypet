@@ -1,0 +1,368 @@
+Buildfile: /home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/build.xml
+
+sypet:
+     [java]         ____     ___      __
+     [java]        / __/_ __/ _ \___ / /
+     [java]       _\ \/ // / ___/ -_) __/
+     [java]      /___/\_, /_/   \__/\__/
+     [java]          /___/              
+     [java] ----------Options
+     [java] Timeout:		15 (seconds)
+     [java] Pruning:		ON
+     [java] Objective Function:	ON
+     [java] Round Robin:	ON
+     [java] ----------/home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/benchmarks/codewars/15/benchmark15.json
+     [java] Benchmark Id: 15
+     [java] Method name: order
+     [java] Packages: [java.lang]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.lang.String]
+     [java] Target type: java.lang.String
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] PetriNet for path length: 1 [places: 41 ; transitions: 489 ; edges: 1170]
+     [java] PetriNet for path length: 2 [places: 106 ; transitions: 971 ; edges: 2339]
+     [java] PetriNet for path length: 3 [places: 111 ; transitions: 1002 ; edges: 2420]
+     [java] PetriNet for path length: 4 [places: 112 ; transitions: 1004 ; edges: 2424]
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var86 = java.lang.Class.forName(s);java.lang.String sypet_var87 = sypet_var86.getSimpleName();return sypet_var87;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var89 = java.lang.Class.forName(s);java.lang.String sypet_var90 = sypet_var89.getCanonicalName();return sypet_var90;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var92 = java.lang.Class.forName(s);java.lang.String sypet_var93 = sypet_var92.getName();return sypet_var93;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var485 = java.lang.Class.forName(s);boolean sypet_var486 = sypet_var485.isPrimitive();java.lang.String sypet_var487 = java.lang.String.valueOf(sypet_var486);return sypet_var487;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var489 = java.lang.Class.forName(s);boolean sypet_var490 = sypet_var489.desiredAssertionStatus();java.lang.String sypet_var491 = java.lang.String.valueOf(sypet_var490);return sypet_var491;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var493 = java.lang.Class.forName(s);boolean sypet_var494 = sypet_var493.isAnnotation();java.lang.String sypet_var495 = java.lang.String.valueOf(sypet_var494);return sypet_var495;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var497 = java.lang.Class.forName(s);boolean sypet_var498 = sypet_var497.isAnonymousClass();java.lang.String sypet_var499 = java.lang.String.valueOf(sypet_var498);return sypet_var499;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var501 = java.lang.Class.forName(s);boolean sypet_var502 = sypet_var501.isArray();java.lang.String sypet_var503 = java.lang.String.valueOf(sypet_var502);return sypet_var503;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var505 = java.lang.Class.forName(s);boolean sypet_var506 = sypet_var505.isEnum();java.lang.String sypet_var507 = java.lang.String.valueOf(sypet_var506);return sypet_var507;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var509 = java.lang.Class.forName(s);boolean sypet_var510 = sypet_var509.isInterface();java.lang.String sypet_var511 = java.lang.String.valueOf(sypet_var510);return sypet_var511;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var513 = java.lang.Class.forName(s);boolean sypet_var514 = sypet_var513.isLocalClass();java.lang.String sypet_var515 = java.lang.String.valueOf(sypet_var514);return sypet_var515;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var517 = java.lang.Class.forName(s);boolean sypet_var518 = sypet_var517.isMemberClass();java.lang.String sypet_var519 = java.lang.String.valueOf(sypet_var518);return sypet_var519;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var521 = java.lang.Class.forName(s);boolean sypet_var522 = sypet_var521.isSynthetic();java.lang.String sypet_var523 = java.lang.String.valueOf(sypet_var522);return sypet_var523;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var525 = java.lang.Class.forName(s);boolean sypet_var526 = java.lang.Compiler.compileClass(sypet_var525);java.lang.String sypet_var527 = java.lang.String.valueOf(sypet_var526);return sypet_var527;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var529 = java.lang.Class.forName(s);boolean sypet_var530 = java.lang.reflect.Proxy.isProxyClass(sypet_var529);java.lang.String sypet_var531 = java.lang.String.valueOf(sypet_var530);return sypet_var531;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var533 = java.lang.Class.forName(s);int sypet_var534 = sypet_var533.getModifiers();java.lang.String sypet_var535 = java.lang.String.valueOf(sypet_var534);return sypet_var535;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var537 = java.lang.Class.forName(s);int sypet_var538 = sypet_var537.getModifiers();java.lang.String sypet_var539 = java.lang.Character.getName(sypet_var538);return sypet_var539;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var541 = java.lang.Class.forName(s);int sypet_var542 = sypet_var541.getModifiers();java.lang.String sypet_var543 = java.lang.Integer.toBinaryString(sypet_var542);return sypet_var543;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var545 = java.lang.Class.forName(s);int sypet_var546 = sypet_var545.getModifiers();java.lang.String sypet_var547 = java.lang.Integer.toHexString(sypet_var546);return sypet_var547;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var549 = java.lang.Class.forName(s);int sypet_var550 = sypet_var549.getModifiers();java.lang.String sypet_var551 = java.lang.Integer.toOctalString(sypet_var550);return sypet_var551;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var553 = java.lang.Class.forName(s);java.lang.Class sypet_var554 = sypet_var553.getSuperclass();java.lang.String sypet_var555 = sypet_var554.getSimpleName();return sypet_var555;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var553 = java.lang.Class.forName(s);java.lang.Class sypet_var554 = sypet_var553.getSuperclass();java.lang.String sypet_var555 = sypet_var554.getSimpleName();return sypet_var555;}
+     [java] 	                                                          ^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2 problems (2 warnings)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var557 = java.lang.Class.forName(s);java.lang.Class sypet_var558 = sypet_var557.getComponentType();java.lang.String sypet_var559 = sypet_var558.getCanonicalName();return sypet_var559;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var557 = java.lang.Class.forName(s);java.lang.Class sypet_var558 = sypet_var557.getComponentType();java.lang.String sypet_var559 = sypet_var558.getCanonicalName();return sypet_var559;}
+     [java] 	                                                          ^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2 problems (2 warnings)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var561 = java.lang.Class.forName(s);java.lang.Class sypet_var562 = sypet_var561.getDeclaringClass();java.lang.String sypet_var563 = sypet_var562.getCanonicalName();return sypet_var563;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var561 = java.lang.Class.forName(s);java.lang.Class sypet_var562 = sypet_var561.getDeclaringClass();java.lang.String sypet_var563 = sypet_var562.getCanonicalName();return sypet_var563;}
+     [java] 	                                                          ^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2 problems (2 warnings)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var565 = java.lang.Class.forName(s);java.lang.Class sypet_var566 = sypet_var565.getEnclosingClass();java.lang.String sypet_var567 = sypet_var566.getCanonicalName();return sypet_var567;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var565 = java.lang.Class.forName(s);java.lang.Class sypet_var566 = sypet_var565.getEnclosingClass();java.lang.String sypet_var567 = sypet_var566.getCanonicalName();return sypet_var567;}
+     [java] 	                                                          ^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2 problems (2 warnings)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var569 = java.lang.Class.forName(s);java.lang.Class sypet_var570 = sypet_var569.getSuperclass();java.lang.String sypet_var571 = sypet_var570.getCanonicalName();return sypet_var571;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var569 = java.lang.Class.forName(s);java.lang.Class sypet_var570 = sypet_var569.getSuperclass();java.lang.String sypet_var571 = sypet_var570.getCanonicalName();return sypet_var571;}
+     [java] 	                                                          ^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2 problems (2 warnings)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var573 = java.lang.Class.forName(s);java.lang.Class sypet_var574 = sypet_var573.getEnclosingClass();java.lang.String sypet_var575 = sypet_var574.getSimpleName();return sypet_var575;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var573 = java.lang.Class.forName(s);java.lang.Class sypet_var574 = sypet_var573.getEnclosingClass();java.lang.String sypet_var575 = sypet_var574.getSimpleName();return sypet_var575;}
+     [java] 	                                                          ^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2 problems (2 warnings)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var577 = java.lang.Class.forName(s);java.lang.Class sypet_var578 = sypet_var577.getComponentType();java.lang.String sypet_var579 = sypet_var578.getName();return sypet_var579;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var577 = java.lang.Class.forName(s);java.lang.Class sypet_var578 = sypet_var577.getComponentType();java.lang.String sypet_var579 = sypet_var578.getName();return sypet_var579;}
+     [java] 	                                                          ^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2 problems (2 warnings)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var581 = java.lang.Class.forName(s);java.lang.Class sypet_var582 = sypet_var581.getDeclaringClass();java.lang.String sypet_var583 = sypet_var582.getName();return sypet_var583;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var581 = java.lang.Class.forName(s);java.lang.Class sypet_var582 = sypet_var581.getDeclaringClass();java.lang.String sypet_var583 = sypet_var582.getName();return sypet_var583;}
+     [java] 	                                                          ^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2 problems (2 warnings)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var585 = java.lang.Class.forName(s);java.lang.Class sypet_var586 = sypet_var585.getEnclosingClass();java.lang.String sypet_var587 = sypet_var586.getName();return sypet_var587;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var585 = java.lang.Class.forName(s);java.lang.Class sypet_var586 = sypet_var585.getEnclosingClass();java.lang.String sypet_var587 = sypet_var586.getName();return sypet_var587;}
+     [java] 	                                                          ^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2 problems (2 warnings)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var589 = java.lang.Class.forName(s);java.lang.Class sypet_var590 = sypet_var589.getSuperclass();java.lang.String sypet_var591 = sypet_var590.getName();return sypet_var591;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var589 = java.lang.Class.forName(s);java.lang.Class sypet_var590 = sypet_var589.getSuperclass();java.lang.String sypet_var591 = sypet_var590.getName();return sypet_var591;}
+     [java] 	                                                          ^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2 problems (2 warnings)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var593 = java.lang.Class.forName(s);java.lang.Class sypet_var594 = sypet_var593.getComponentType();java.lang.String sypet_var595 = sypet_var594.getSimpleName();return sypet_var595;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var593 = java.lang.Class.forName(s);java.lang.Class sypet_var594 = sypet_var593.getComponentType();java.lang.String sypet_var595 = sypet_var594.getSimpleName();return sypet_var595;}
+     [java] 	                                                          ^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2 problems (2 warnings)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var597 = java.lang.Class.forName(s);java.lang.Class sypet_var598 = sypet_var597.getDeclaringClass();java.lang.String sypet_var599 = sypet_var598.getSimpleName();return sypet_var599;}
+     [java] 	^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2. WARNING in /Source.java (at line 3)
+     [java] 	java.lang.Class sypet_var597 = java.lang.Class.forName(s);java.lang.Class sypet_var598 = sypet_var597.getDeclaringClass();java.lang.String sypet_var599 = sypet_var598.getSimpleName();return sypet_var599;}
+     [java] 	                                                          ^^^^^^^^^^^^^^^
+     [java] Class is a raw type. References to generic type Class<T> should be parameterized
+     [java] ----------
+     [java] 2 problems (2 warnings)
+     [java] java.lang.Exception: Stack trace
+     [java] 	at java.lang.Thread.dumpStack(Thread.java:1336)
+     [java] 	at Source.order(Source.java:3)
+     [java] 	at Source.test0(Source.java:4)
+     [java] 	at Source.test(Source.java:4)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
+     [java] 	at edu.utexas.hunter.synthesis.SypetTestUtil.runTest(SypetTestUtil.java:55)
+     [java] 	at edu.utexas.hunter.synthesis.test.Experiment.main(Experiment.java:327)
+     [java] ----------Statistics----------
+     [java] Benchmark Id: 15
+     [java] Sketch Generation Time: 612.6899800000004
+     [java] Sketch Completion Time: 100.709544
+     [java] Compilation Time: 10992.186835000006
+     [java] Running Test cases Time: 2647.835629
+     [java] Number of completed programs: 494
+     [java] Number of sketches: 243
+     [java] TIMEOUT after 15000 ms
+     [java] --------------------------------------------------------
+
+BUILD SUCCESSFUL
+Total time: 19 seconds

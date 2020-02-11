@@ -1,0 +1,21 @@
+Buildfile: /home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/build.xml
+
+sypet:
+     [java]         ____     ___      __
+     [java]        / __/_ __/ _ \___ / /
+     [java]       _\ \/ // / ___/ -_) __/
+     [java]      /___/\_, /_/   \__/\__/
+     [java]          /___/              
+     [java] ----------Options
+     [java] Timeout:		15 (seconds)
+     [java] Pruning:		ON
+     [java] Objective Function:	ON
+     [java] Round Robin:	ON
+     [java] Exception in thread "main" java.lang.AssertionError
+     [java] 	at edu.utexas.hunter.synthesis.test.Experiment.genMethodHeader(Experiment.java:403)
+     [java] 	at edu.utexas.hunter.synthesis.test.Experiment.main(Experiment.java:157)
+
+BUILD FAILED
+/home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/build.xml:8: Java returned: 1
+
+Total time: 0 seconds

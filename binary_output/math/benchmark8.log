@@ -1,0 +1,119 @@
+Buildfile: /home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/build.xml
+
+sypet:
+     [java]         ____     ___      __
+     [java]        / __/_ __/ _ \___ / /
+     [java]       _\ \/ // / ___/ -_) __/
+     [java]      /___/\_, /_/   \__/\__/
+     [java]          /___/              
+     [java] ----------Options
+     [java] Timeout:		15 (seconds)
+     [java] Pruning:		ON
+     [java] Objective Function:	ON
+     [java] Round Robin:	ON
+     [java] ----------/home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/benchmarks/math/8/benchmark8.json
+     [java] Benchmark Id: 8
+     [java] Method name: predict
+     [java] Packages: [org.apache.commons.math.stat]
+     [java] Libraries: [./lib/commons-math-2.2.jar]
+     [java] Source type(s): [double[][], double]
+     [java] Target type: double
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.SealedObject is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] PetriNet for path length: 3 [places: 81 ; transitions: 856 ; edges: 2074]
+     [java] PetriNet for path length: 4 [places: 81 ; transitions: 856 ; edges: 2074]
+     [java] PetriNet for path length: 5 [places: 81 ; transitions: 856 ; edges: 2074]
+     [java] PetriNet for path length: 6 [places: 81 ; transitions: 856 ; edges: 2074]
+     [java] PetriNet for path length: 7 [places: 81 ; transitions: 856 ; edges: 2074]
+     [java] ----------
+     [java] 1. ERROR in /Source.java (at line 3)
+     [java] 	org.apache.commons.math.stat.regression.SimpleRegression sypet_var349 = new org.apache.commons.math.stat.regression.SimpleRegression();sypet_var349.addData(sypet_arg0);org.apache.commons.math.stat.regression.AbstractMultipleLinearRegression sypet_var351 = new org.apache.commons.math.stat.regression.AbstractMultipleLinearRegression();double[] sypet_var352 = sypet_var351.estimateRegressionParameters();double sypet_var353 = org.apache.commons.math.stat.inference.TestUtils.tTest(sypet_arg1,sypet_var352);return sypet_var353;}
+     [java] 	                                                                                                                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] Cannot instantiate the type AbstractMultipleLinearRegression
+     [java] ----------
+     [java] 1 problem (1 error)
+     [java] ----------
+     [java] 1. ERROR in /Source.java (at line 3)
+     [java] 	org.apache.commons.math.stat.regression.SimpleRegression sypet_var356 = new org.apache.commons.math.stat.regression.SimpleRegression();sypet_var356.addData(sypet_arg0);org.apache.commons.math.stat.regression.AbstractMultipleLinearRegression sypet_var358 = new org.apache.commons.math.stat.regression.AbstractMultipleLinearRegression();double[] sypet_var359 = sypet_var358.estimateResiduals();double sypet_var360 = org.apache.commons.math.stat.inference.TestUtils.tTest(sypet_arg1,sypet_var359);return sypet_var360;}
+     [java] 	                                                                                                                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] Cannot instantiate the type AbstractMultipleLinearRegression
+     [java] ----------
+     [java] 1 problem (1 error)
+     [java] ----------
+     [java] 1. ERROR in /Source.java (at line 3)
+     [java] 	org.apache.commons.math.stat.regression.SimpleRegression sypet_var425 = new org.apache.commons.math.stat.regression.SimpleRegression();sypet_var425.addData(sypet_arg0);org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic sypet_var427 = new org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic();double[] sypet_var428 = sypet_var427.getData();double sypet_var429 = org.apache.commons.math.stat.StatUtils.percentile(sypet_var428,sypet_arg1);return sypet_var429;}
+     [java] 	                                                                                                                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] Cannot instantiate the type AbstractUnivariateStatistic
+     [java] ----------
+     [java] 1 problem (1 error)
+     [java] ----------
+     [java] 1. ERROR in /Source.java (at line 3)
+     [java] 	org.apache.commons.math.stat.regression.SimpleRegression sypet_var432 = new org.apache.commons.math.stat.regression.SimpleRegression();sypet_var432.addData(sypet_arg0);org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic sypet_var434 = new org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic();double[] sypet_var435 = sypet_var434.getData();double sypet_var436 = org.apache.commons.math.stat.StatUtils.variance(sypet_var435,sypet_arg1);return sypet_var436;}
+     [java] 	                                                                                                                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] Cannot instantiate the type AbstractUnivariateStatistic
+     [java] ----------
+     [java] 1 problem (1 error)
+     [java] ----------
+     [java] 1. ERROR in /Source.java (at line 3)
+     [java] 	org.apache.commons.math.stat.regression.SimpleRegression sypet_var439 = new org.apache.commons.math.stat.regression.SimpleRegression();sypet_var439.addData(sypet_arg0);org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic sypet_var441 = new org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic();double[] sypet_var442 = sypet_var441.getData();double sypet_var443 = org.apache.commons.math.stat.inference.TestUtils.t(sypet_arg1,sypet_var442);return sypet_var443;}
+     [java] 	                                                                                                                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] Cannot instantiate the type AbstractUnivariateStatistic
+     [java] ----------
+     [java] 1 problem (1 error)
+     [java] ----------
+     [java] 1. ERROR in /Source.java (at line 3)
+     [java] 	org.apache.commons.math.stat.regression.SimpleRegression sypet_var446 = new org.apache.commons.math.stat.regression.SimpleRegression();sypet_var446.addData(sypet_arg0);org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic sypet_var448 = new org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic();double[] sypet_var449 = sypet_var448.getData();double sypet_var450 = org.apache.commons.math.stat.inference.TestUtils.tTest(sypet_arg1,sypet_var449);return sypet_var450;}
+     [java] 	                                                                                                                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] Cannot instantiate the type AbstractUnivariateStatistic
+     [java] ----------
+     [java] 1 problem (1 error)
+     [java] ----------
+     [java] 1. ERROR in /Source.java (at line 3)
+     [java] 	org.apache.commons.math.stat.regression.SimpleRegression sypet_var453 = new org.apache.commons.math.stat.regression.SimpleRegression();sypet_var453.removeData(sypet_arg0);org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic sypet_var455 = new org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic();double[] sypet_var456 = sypet_var455.getData();double sypet_var457 = org.apache.commons.math.stat.StatUtils.variance(sypet_var456,sypet_arg1);return sypet_var457;}
+     [java] 	                                                                                                                                                                                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] Cannot instantiate the type AbstractUnivariateStatistic
+     [java] ----------
+     [java] 1 problem (1 error)
+     [java] ----------
+     [java] 1. ERROR in /Source.java (at line 3)
+     [java] 	org.apache.commons.math.stat.regression.SimpleRegression sypet_var460 = new org.apache.commons.math.stat.regression.SimpleRegression();sypet_var460.removeData(sypet_arg0);org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic sypet_var462 = new org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic();double[] sypet_var463 = sypet_var462.getData();double sypet_var464 = org.apache.commons.math.stat.StatUtils.percentile(sypet_var463,sypet_arg1);return sypet_var464;}
+     [java] 	                                                                                                                                                                                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] Cannot instantiate the type AbstractUnivariateStatistic
+     [java] ----------
+     [java] 1 problem (1 error)
+     [java] ----------
+     [java] 1. ERROR in /Source.java (at line 3)
+     [java] 	org.apache.commons.math.stat.regression.SimpleRegression sypet_var467 = new org.apache.commons.math.stat.regression.SimpleRegression();sypet_var467.removeData(sypet_arg0);org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic sypet_var469 = new org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic();double[] sypet_var470 = sypet_var469.getData();double sypet_var471 = org.apache.commons.math.stat.inference.TestUtils.t(sypet_arg1,sypet_var470);return sypet_var471;}
+     [java] 	                                                                                                                                                                                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] Cannot instantiate the type AbstractUnivariateStatistic
+     [java] ----------
+     [java] 1 problem (1 error)
+     [java] ----------
+     [java] 1. ERROR in /Source.java (at line 3)
+     [java] 	org.apache.commons.math.stat.regression.SimpleRegression sypet_var474 = new org.apache.commons.math.stat.regression.SimpleRegression();sypet_var474.removeData(sypet_arg0);org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic sypet_var476 = new org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic();double[] sypet_var477 = sypet_var476.getData();double sypet_var478 = org.apache.commons.math.stat.inference.TestUtils.tTest(sypet_arg1,sypet_var477);return sypet_var478;}
+     [java] 	                                                                                                                                                                                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] Cannot instantiate the type AbstractUnivariateStatistic
+     [java] ----------
+     [java] 1 problem (1 error)
+     [java] ----------Statistics----------
+     [java] Benchmark Id: 8
+     [java] Sketch Generation Time: 3548.8188580000005
+     [java] Sketch Completion Time: 97.937543
+     [java] Compilation Time: 3705.568521
+     [java] Running Test cases Time: 6522.430741999998
+     [java] Number of completed programs: 247
+     [java] Number of sketches: 121
+     [java] TIMEOUT after 15000 ms
+     [java] --------------------------------------------------------
+
+BUILD SUCCESSFUL
+Total time: 17 seconds

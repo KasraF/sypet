@@ -1,0 +1,48 @@
+Buildfile: /home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/build.xml
+
+sypet:
+     [java]         ____     ___      __
+     [java]        / __/_ __/ _ \___ / /
+     [java]       _\ \/ // / ___/ -_) __/
+     [java]      /___/\_, /_/   \__/\__/
+     [java]          /___/              
+     [java] ----------Options
+     [java] Timeout:		15 (seconds)
+     [java] Pruning:		ON
+     [java] Objective Function:	ON
+     [java] Round Robin:	ON
+     [java] ----------/home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/benchmarks/math/6/benchmark6.json
+     [java] Benchmark Id: 6
+     [java] Method name: solveLinear
+     [java] Packages: [org.apache.commons.math3.linear]
+     [java] Libraries: [./lib/commons-math3-3.5.jar, ./lib/commons-lang-2.6.jar]
+     [java] Source type(s): [double[][], double[]]
+     [java] Target type: double[]
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.SealedObject is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] PetriNet for path length: 3 [places: 83 ; transitions: 1090 ; edges: 2910]
+     [java] PetriNet for path length: 4 [places: 88 ; transitions: 1118 ; edges: 2983]
+     [java] PetriNet for path length: 5 [places: 91 ; transitions: 1130 ; edges: 3013]
+     [java] PetriNet for path length: 6 [places: 91 ; transitions: 1130 ; edges: 3013]
+     [java] ----------Statistics----------
+     [java] Benchmark Id: 6
+     [java] Sketch Generation Time: 3283.497876
+     [java] Sketch Completion Time: 97.78531900000004
+     [java] Compilation Time: 6666.964522000001
+     [java] Running Test cases Time: 2723.4863419999992
+     [java] Number of completed programs: 387
+     [java] Number of sketches: 194
+     [java] TIMEOUT after 15000 ms
+     [java] --------------------------------------------------------
+
+BUILD SUCCESSFUL
+Total time: 18 seconds

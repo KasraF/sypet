@@ -1,0 +1,104 @@
+Buildfile: /home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/build.xml
+
+sypet:
+     [java]         ____     ___      __
+     [java]        / __/_ __/ _ \___ / /
+     [java]       _\ \/ // / ___/ -_) __/
+     [java]      /___/\_, /_/   \__/\__/
+     [java]          /___/              
+     [java] ----------Options
+     [java] Timeout:		15 (seconds)
+     [java] Pruning:		ON
+     [java] Objective Function:	ON
+     [java] Round Robin:	ON
+     [java] ----------/home/kas/projects/sypet_bin/all-in-one/SyPet/sypet/benchmarks/math/9/benchmark9.json
+     [java] Benchmark Id: 9
+     [java] Method name: eigenvalue
+     [java] Packages: [org.apache.commons.math3.linear]
+     [java] Libraries: [./lib/commons-math3-3.5.jar]
+     [java] Source type(s): [org.apache.commons.math3.linear.RealMatrix, int]
+     [java] Target type: org.apache.commons.math3.geometry.euclidean.twod.Vector2D
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.SealedObject is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] PetriNet for path length: 3 [places: 86 ; transitions: 1101 ; edges: 2935]
+     [java] PetriNet for path length: 4 [places: 91 ; transitions: 1130 ; edges: 3013]
+     [java] PetriNet for path length: 5 [places: 91 ; transitions: 1130 ; edges: 3013]
+     [java] PetriNet for path length: 6 [places: 91 ; transitions: 1130 ; edges: 3013]
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	org.apache.commons.math3.linear.ArrayRealVector sypet_var739 = new org.apache.commons.math3.linear.ArrayRealVector(sypet_arg1);double sypet_var740 = sypet_var739.getNorm();org.apache.commons.math3.linear.EigenDecomposition sypet_var741 = new org.apache.commons.math3.linear.EigenDecomposition(sypet_arg0,sypet_var740);double[] sypet_var742 = sypet_var741.getRealEigenvalues();org.apache.commons.math3.geometry.euclidean.twod.Vector2D sypet_var743 = new org.apache.commons.math3.geometry.euclidean.twod.Vector2D(sypet_var742);return sypet_var743;}
+     [java] 	                                                                                                                                                                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] The constructor EigenDecomposition(RealMatrix, double) is deprecated
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	double sypet_var746 = sypet_arg0.getTrace();org.apache.commons.math3.linear.RealMatrix sypet_var747 = org.apache.commons.math3.linear.MatrixUtils.createRealIdentityMatrix(sypet_arg1);org.apache.commons.math3.linear.EigenDecomposition sypet_var748 = new org.apache.commons.math3.linear.EigenDecomposition(sypet_var747,sypet_var746);double[] sypet_var749 = sypet_var748.getImagEigenvalues();org.apache.commons.math3.geometry.euclidean.twod.Vector2D sypet_var750 = new org.apache.commons.math3.geometry.euclidean.twod.Vector2D(sypet_var749);return sypet_var750;}
+     [java] 	                                                                                                                                                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] The constructor EigenDecomposition(RealMatrix, double) is deprecated
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	org.apache.commons.math3.linear.OpenMapRealVector sypet_var1019 = new org.apache.commons.math3.linear.OpenMapRealVector(sypet_arg1);double sypet_var1020 = sypet_var1019.getSparsity();org.apache.commons.math3.linear.EigenDecomposition sypet_var1021 = new org.apache.commons.math3.linear.EigenDecomposition(sypet_arg0,sypet_var1020);double[] sypet_var1022 = sypet_var1021.getImagEigenvalues();org.apache.commons.math3.geometry.euclidean.twod.Vector2D sypet_var1023 = new org.apache.commons.math3.geometry.euclidean.twod.Vector2D(sypet_var1022);return sypet_var1023;}
+     [java] 	                                                                                                                                                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] The constructor EigenDecomposition(RealMatrix, double) is deprecated
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	org.apache.commons.math3.linear.ArrayRealVector sypet_var1194 = new org.apache.commons.math3.linear.ArrayRealVector(sypet_arg1);double sypet_var1195 = sypet_var1194.getLInfNorm();org.apache.commons.math3.linear.EigenDecomposition sypet_var1196 = new org.apache.commons.math3.linear.EigenDecomposition(sypet_arg0,sypet_var1195);double[] sypet_var1197 = sypet_var1196.getImagEigenvalues();org.apache.commons.math3.geometry.euclidean.twod.Vector2D sypet_var1198 = new org.apache.commons.math3.geometry.euclidean.twod.Vector2D(sypet_var1197);return sypet_var1198;}
+     [java] 	                                                                                                                                                                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] The constructor EigenDecomposition(RealMatrix, double) is deprecated
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	org.apache.commons.math3.linear.ArrayRealVector sypet_var1201 = new org.apache.commons.math3.linear.ArrayRealVector(sypet_arg1);double sypet_var1202 = sypet_var1201.getL1Norm();org.apache.commons.math3.linear.EigenDecomposition sypet_var1203 = new org.apache.commons.math3.linear.EigenDecomposition(sypet_arg0,sypet_var1202);double[] sypet_var1204 = sypet_var1203.getRealEigenvalues();org.apache.commons.math3.geometry.euclidean.twod.Vector2D sypet_var1205 = new org.apache.commons.math3.geometry.euclidean.twod.Vector2D(sypet_var1204);return sypet_var1205;}
+     [java] 	                                                                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] The constructor EigenDecomposition(RealMatrix, double) is deprecated
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	org.apache.commons.math3.linear.ArrayRealVector sypet_var1208 = new org.apache.commons.math3.linear.ArrayRealVector(sypet_arg1);double sypet_var1209 = sypet_var1208.getLInfNorm();org.apache.commons.math3.linear.EigenDecomposition sypet_var1210 = new org.apache.commons.math3.linear.EigenDecomposition(sypet_arg0,sypet_var1209);double[] sypet_var1211 = sypet_var1210.getRealEigenvalues();org.apache.commons.math3.geometry.euclidean.twod.Vector2D sypet_var1212 = new org.apache.commons.math3.geometry.euclidean.twod.Vector2D(sypet_var1211);return sypet_var1212;}
+     [java] 	                                                                                                                                                                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] The constructor EigenDecomposition(RealMatrix, double) is deprecated
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	org.apache.commons.math3.linear.ArrayRealVector sypet_var1215 = new org.apache.commons.math3.linear.ArrayRealVector(sypet_arg1);double sypet_var1216 = sypet_var1215.getL1Norm();org.apache.commons.math3.linear.EigenDecomposition sypet_var1217 = new org.apache.commons.math3.linear.EigenDecomposition(sypet_arg0,sypet_var1216);double[] sypet_var1218 = sypet_var1217.getImagEigenvalues();org.apache.commons.math3.geometry.euclidean.twod.Vector2D sypet_var1219 = new org.apache.commons.math3.geometry.euclidean.twod.Vector2D(sypet_var1218);return sypet_var1219;}
+     [java] 	                                                                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] The constructor EigenDecomposition(RealMatrix, double) is deprecated
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------
+     [java] 1. WARNING in /Source.java (at line 3)
+     [java] 	org.apache.commons.math3.linear.ArrayRealVector sypet_var1222 = new org.apache.commons.math3.linear.ArrayRealVector(sypet_arg1);double sypet_var1223 = sypet_var1222.getNorm();org.apache.commons.math3.linear.EigenDecomposition sypet_var1224 = new org.apache.commons.math3.linear.EigenDecomposition(sypet_arg0,sypet_var1223);double[] sypet_var1225 = sypet_var1224.getImagEigenvalues();org.apache.commons.math3.geometry.euclidean.twod.Vector2D sypet_var1226 = new org.apache.commons.math3.geometry.euclidean.twod.Vector2D(sypet_var1225);return sypet_var1226;}
+     [java] 	                                                                                                                                                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [java] The constructor EigenDecomposition(RealMatrix, double) is deprecated
+     [java] ----------
+     [java] 1 problem (1 warning)
+     [java] ----------Statistics----------
+     [java] Benchmark Id: 9
+     [java] Sketch Generation Time: 2022.0994140000005
+     [java] Sketch Completion Time: 106.17423200000013
+     [java] Compilation Time: 7484.056733000002
+     [java] Running Test cases Time: 3621.7292619999985
+     [java] Number of completed programs: 431
+     [java] Number of sketches: 199
+     [java] TIMEOUT after 15000 ms
+     [java] --------------------------------------------------------
+
+BUILD SUCCESSFUL
+Total time: 17 seconds
