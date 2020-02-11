@@ -1,10 +1,11 @@
 {
-  "id": 4,
-  "methodName": "removeChar",
+  "id": 18,
+  "methodName": "rot",
   "paramNames": [
     "s"
   ],
   "srcTypes": [
+    "java.lang.Integer",
     "java.lang.String"
   ],
   "tgtType": "java.lang.String",
@@ -14,5 +15,5 @@
   "libs": [
     "./lib/rt7.jar"
   ],
-  "testPath": "benchmarks/codewars/4/TestSource.java"
+  "testPath": "benchmarks/codewars/18/TestSource.java"
 }

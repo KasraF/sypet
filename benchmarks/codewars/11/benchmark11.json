@@ -1,8 +1,8 @@
 {
-  "id": 4,
-  "methodName": "removeChar",
+  "id": 11,
+  "methodName": "getMiddle",
   "paramNames": [
-    "s"
+    "num"
   ],
   "srcTypes": [
     "java.lang.String"
@@ -14,5 +14,5 @@
   "libs": [
     "./lib/rt7.jar"
   ],
-  "testPath": "benchmarks/codewars/4/TestSource.java"
+  "testPath": "benchmarks/codewars/11/TestSource.java"
 }

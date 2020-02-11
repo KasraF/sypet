@@ -1,21 +1,21 @@
 public static boolean test0() throws Throwable {
-	return fakeBin("45385593107843568").equals("01011110001100111");
+	return getMiddle("test").equals("es");
 }
 
 public static boolean test1() throws Throwable {
-	return fakeBin("509321967506747").equals("101000111101101");
+	return getMiddle("testing").equals("t");
 }
 
 public static boolean test2() throws Throwable {
-	return fakeBin("366058562030849490134388085").equals("011011110000101010000011011");
+	return getMiddle("middle").equals("dd");
 }
 
 public static boolean test3() throws Throwable {
-	return fakeBin("15889923").equals("01111100");
+	return getMiddle("A").equals("A");
 }
 
 public static boolean test4() throws Throwable {
-	return fakeBin("800857237867").equals("100111001111");
+	return getMiddle("of").equals("of");
 }
 
 public static boolean test() throws Throwable

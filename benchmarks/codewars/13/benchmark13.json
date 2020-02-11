@@ -1,18 +1,18 @@
 {
-  "id": 4,
-  "methodName": "removeChar",
+  "id": 13,
+  "methodName": "vowelCount",
   "paramNames": [
     "s"
   ],
   "srcTypes": [
     "java.lang.String"
   ],
-  "tgtType": "java.lang.String",
+  "tgtType": "java.lang.Integer",
   "packages": [
     "java.lang"
   ],
   "libs": [
     "./lib/rt7.jar"
   ],
-  "testPath": "benchmarks/codewars/4/TestSource.java"
+  "testPath": "benchmarks/codewars/13/TestSource.java"
 }
