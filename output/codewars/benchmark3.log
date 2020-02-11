@@ -1,0 +1,943 @@
+Buildfile: /home/kas/projects/sypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 120000
+     [java] Round Robin: true
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/codewars/3/benchmark3.json
+     [java] Benchmark Id: 3
+     [java] Method name: dnaToRna
+     [java] Packages: [java.lang]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.lang.String]
+     [java] Target type: java.lang.String
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] #Classes: 375
+     [java] #Methods: 3678
+     [java] Soot Time: 3447.228629
+     [java] PetriNet for path length: 1 [places: 361 ; transitions: 2280 ; edges: 5408]
+     [java] PetriNet for path length: 2 [places: 361 ; transitions: 2280 ; edges: 5408]
+     [java] PetriNet for path length: 3 [places: 361 ; transitions: 2280 ; edges: 5408]
+     [java] PetriNet for path length: 4 [places: 361 ; transitions: 2280 ; edges: 5408]
+     [java] PetriNet for path length: 5 [places: 361 ; transitions: 2280 ; edges: 5408]
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var62 = java.lang.Integer.parseInt(dna);java.lang.String sypet_var63 = java.lang.CharacterName.get(sypet_var62);return sypet_var63;}
+     [java]                                                                                           ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var80 = dna.length();java.lang.String sypet_var81 = java.lang.CharacterName.get(sypet_var80);return sypet_var81;}
+     [java]                                                                        ^
+     [java] 1 error
+     [java] java.lang.Exception: Stack trace
+     [java] 	at java.lang.Thread.dumpStack(Thread.java:1336)
+     [java] 	at Source.dnaToRna(Source.java:3)
+     [java] 	at Source.test0(Source.java:4)
+     [java] 	at Source.test(Source.java:4)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
+     [java] 	at edu.utexas.sypet.synthesis.SypetTestUtil.runTest(SypetTestUtil.java:70)
+     [java] 	at edu.utexas.sypet.Experiment.main(Experiment.java:283)
+     [java] java.lang.Exception: Stack trace
+     [java] 	at java.lang.Thread.dumpStack(Thread.java:1336)
+     [java] 	at Source.dnaToRna(Source.java:3)
+     [java] 	at Source.test0(Source.java:4)
+     [java] 	at Source.test(Source.java:4)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
+     [java] 	at edu.utexas.sypet.synthesis.SypetTestUtil.runTest(SypetTestUtil.java:70)
+     [java] 	at edu.utexas.sypet.Experiment.main(Experiment.java:283)
+     [java] java.lang.Exception: Stack trace
+     [java] 	at java.lang.Thread.dumpStack(Thread.java:1336)
+     [java] 	at Source.dnaToRna(Source.java:3)
+     [java] 	at Source.test0(Source.java:4)
+     [java] 	at Source.test(Source.java:4)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
+     [java] 	at edu.utexas.sypet.synthesis.SypetTestUtil.runTest(SypetTestUtil.java:70)
+     [java] 	at edu.utexas.sypet.Experiment.main(Experiment.java:283)
+     [java] java.lang.Exception: Stack trace
+     [java] 	at java.lang.Thread.dumpStack(Thread.java:1336)
+     [java] 	at Source.dnaToRna(Source.java:3)
+     [java] 	at Source.test0(Source.java:4)
+     [java] 	at Source.test(Source.java:4)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
+     [java] 	at edu.utexas.sypet.synthesis.SypetTestUtil.runTest(SypetTestUtil.java:70)
+     [java] 	at edu.utexas.sypet.Experiment.main(Experiment.java:283)
+     [java] java.lang.Exception: Stack trace
+     [java] 	at java.lang.Thread.dumpStack(Thread.java:1336)
+     [java] 	at Source.dnaToRna(Source.java:3)
+     [java] 	at Source.test0(Source.java:4)
+     [java] 	at Source.test(Source.java:4)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
+     [java] 	at edu.utexas.sypet.synthesis.SypetTestUtil.runTest(SypetTestUtil.java:70)
+     [java] 	at edu.utexas.sypet.Experiment.main(Experiment.java:283)
+     [java] java.lang.Exception: Stack trace
+     [java] 	at java.lang.Thread.dumpStack(Thread.java:1336)
+     [java] 	at Source.dnaToRna(Source.java:3)
+     [java] 	at Source.test0(Source.java:4)
+     [java] 	at Source.test(Source.java:4)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
+     [java] 	at edu.utexas.sypet.synthesis.SypetTestUtil.runTest(SypetTestUtil.java:70)
+     [java] 	at edu.utexas.sypet.Experiment.main(Experiment.java:283)
+     [java] java.lang.Exception: Stack trace
+     [java] 	at java.lang.Thread.dumpStack(Thread.java:1336)
+     [java] 	at Source.dnaToRna(Source.java:3)
+     [java] 	at Source.test0(Source.java:4)
+     [java] 	at Source.test(Source.java:4)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
+     [java] 	at edu.utexas.sypet.synthesis.SypetTestUtil.runTest(SypetTestUtil.java:70)
+     [java] 	at edu.utexas.sypet.Experiment.main(Experiment.java:283)
+     [java] java.lang.Exception: Stack trace
+     [java] 	at java.lang.Thread.dumpStack(Thread.java:1336)
+     [java] 	at Source.dnaToRna(Source.java:3)
+     [java] 	at Source.test0(Source.java:4)
+     [java] 	at Source.test(Source.java:4)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
+     [java] 	at edu.utexas.sypet.synthesis.SypetTestUtil.runTest(SypetTestUtil.java:70)
+     [java] 	at edu.utexas.sypet.Experiment.main(Experiment.java:283)
+     [java] java.lang.Exception: Stack trace
+     [java] 	at java.lang.Thread.dumpStack(Thread.java:1336)
+     [java] 	at Source.dnaToRna(Source.java:3)
+     [java] 	at Source.test0(Source.java:4)
+     [java] 	at Source.test(Source.java:4)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
+     [java] 	at edu.utexas.sypet.synthesis.SypetTestUtil.runTest(SypetTestUtil.java:70)
+     [java] 	at edu.utexas.sypet.Experiment.main(Experiment.java:283)
+     [java] PetriNet for path length: 6 [places: 361 ; transitions: 2280 ; edges: 5408]
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] double sypet_var2573 = java.lang.Double.parseDouble(dna);int sypet_var2574 = java.lang.Math.getExponent(sypet_var2573);java.lang.String sypet_var2575 = java.lang.CharacterName.get(sypet_var2574);return sypet_var2575;}
+     [java]                                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] double sypet_var2593 = java.lang.Double.parseDouble(dna);int sypet_var2594 = java.lang.StrictMath.getExponent(sypet_var2593);java.lang.String sypet_var2595 = java.lang.CharacterName.get(sypet_var2594);return sypet_var2595;}
+     [java]                                                                                                                                                                        ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] float sypet_var2625 = java.lang.Float.parseFloat(dna);int sypet_var2626 = java.lang.Float.floatToIntBits(sypet_var2625);java.lang.String sypet_var2627 = java.lang.CharacterName.get(sypet_var2626);return sypet_var2627;}
+     [java]                                                                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] float sypet_var2629 = java.lang.Float.parseFloat(dna);int sypet_var2630 = java.lang.Float.floatToRawIntBits(sypet_var2629);java.lang.String sypet_var2631 = java.lang.CharacterName.get(sypet_var2630);return sypet_var2631;}
+     [java]                                                                                                                                                                      ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] float sypet_var2665 = java.lang.Float.parseFloat(dna);int sypet_var2666 = java.lang.Math.getExponent(sypet_var2665);java.lang.String sypet_var2667 = java.lang.CharacterName.get(sypet_var2666);return sypet_var2667;}
+     [java]                                                                                                                                                               ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] float sypet_var2685 = java.lang.Float.parseFloat(dna);int sypet_var2686 = java.lang.Math.round(sypet_var2685);java.lang.String sypet_var2687 = java.lang.CharacterName.get(sypet_var2686);return sypet_var2687;}
+     [java]                                                                                                                                                         ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] float sypet_var2705 = java.lang.Float.parseFloat(dna);int sypet_var2706 = java.lang.StrictMath.getExponent(sypet_var2705);java.lang.String sypet_var2707 = java.lang.CharacterName.get(sypet_var2706);return sypet_var2707;}
+     [java]                                                                                                                                                                     ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] float sypet_var3165 = java.lang.Float.parseFloat(dna);int sypet_var3166 = java.lang.StrictMath.round(sypet_var3165);java.lang.String sypet_var3167 = java.lang.CharacterName.get(sypet_var3166);return sypet_var3167;}
+     [java]                                                                                                                                                               ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3225 = java.lang.Integer.parseInt(dna);int sypet_var3226 = java.lang.Character.toLowerCase(sypet_var3225);java.lang.String sypet_var3227 = java.lang.CharacterName.get(sypet_var3226);return sypet_var3227;}
+     [java]                                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3229 = java.lang.Integer.parseInt(dna);int sypet_var3230 = java.lang.Character.charCount(sypet_var3229);java.lang.String sypet_var3231 = java.lang.CharacterName.get(sypet_var3230);return sypet_var3231;}
+     [java]                                                                                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3233 = java.lang.Integer.parseInt(dna);int sypet_var3234 = java.lang.Character.getNumericValue(sypet_var3233);java.lang.String sypet_var3235 = java.lang.CharacterName.get(sypet_var3234);return sypet_var3235;}
+     [java]                                                                                                                                                                      ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3237 = java.lang.Integer.parseInt(dna);int sypet_var3238 = java.lang.Character.getType(sypet_var3237);java.lang.String sypet_var3239 = java.lang.CharacterName.get(sypet_var3238);return sypet_var3239;}
+     [java]                                                                                                                                                              ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3241 = java.lang.Integer.parseInt(dna);int sypet_var3242 = java.lang.Character.toTitleCase(sypet_var3241);java.lang.String sypet_var3243 = java.lang.CharacterName.get(sypet_var3242);return sypet_var3243;}
+     [java]                                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3245 = java.lang.Integer.parseInt(dna);int sypet_var3246 = java.lang.Character.toUpperCase(sypet_var3245);java.lang.String sypet_var3247 = java.lang.CharacterName.get(sypet_var3246);return sypet_var3247;}
+     [java]                                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3249 = java.lang.Integer.parseInt(dna);int sypet_var3250 = java.lang.Integer.bitCount(sypet_var3249);java.lang.String sypet_var3251 = java.lang.CharacterName.get(sypet_var3250);return sypet_var3251;}
+     [java]                                                                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3265 = java.lang.Integer.parseInt(dna);int sypet_var3266 = java.lang.Integer.highestOneBit(sypet_var3265);java.lang.String sypet_var3267 = java.lang.CharacterName.get(sypet_var3266);return sypet_var3267;}
+     [java]                                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3277 = java.lang.Integer.parseInt(dna);int sypet_var3278 = java.lang.Integer.lowestOneBit(sypet_var3277);java.lang.String sypet_var3279 = java.lang.CharacterName.get(sypet_var3278);return sypet_var3279;}
+     [java]                                                                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3289 = java.lang.Integer.parseInt(dna);int sypet_var3290 = java.lang.Integer.numberOfLeadingZeros(sypet_var3289);java.lang.String sypet_var3291 = java.lang.CharacterName.get(sypet_var3290);return sypet_var3291;}
+     [java]                                                                                                                                                                         ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3297 = java.lang.Integer.parseInt(dna);int sypet_var3298 = java.lang.Integer.numberOfTrailingZeros(sypet_var3297);java.lang.String sypet_var3299 = java.lang.CharacterName.get(sypet_var3298);return sypet_var3299;}
+     [java]                                                                                                                                                                          ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3301 = java.lang.Integer.parseInt(dna);int sypet_var3302 = java.lang.Integer.reverse(sypet_var3301);java.lang.String sypet_var3303 = java.lang.CharacterName.get(sypet_var3302);return sypet_var3303;}
+     [java]                                                                                                                                                            ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3305 = java.lang.Integer.parseInt(dna);int sypet_var3306 = java.lang.Integer.reverseBytes(sypet_var3305);java.lang.String sypet_var3307 = java.lang.CharacterName.get(sypet_var3306);return sypet_var3307;}
+     [java]                                                                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var3309 = java.lang.Integer.parseInt(dna);int sypet_var3310 = java.lang.Integer.signum(sypet_var3309);java.lang.String sypet_var3311 = java.lang.CharacterName.get(sypet_var3310);return sypet_var3311;}
+     [java]                                                                                                                                                           ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4369 = java.lang.Integer.parseInt(dna);int sypet_var4370 = java.lang.Math.abs(sypet_var4369);java.lang.String sypet_var4371 = java.lang.CharacterName.get(sypet_var4370);return sypet_var4371;}
+     [java]                                                                                                                                                     ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4385 = java.lang.Integer.parseInt(dna);int sypet_var4386 = java.lang.StrictMath.abs(sypet_var4385);java.lang.String sypet_var4387 = java.lang.CharacterName.get(sypet_var4386);return sypet_var4387;}
+     [java]                                                                                                                                                           ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4425 = dna.length();int sypet_var4426 = java.lang.Character.toTitleCase(sypet_var4425);java.lang.String sypet_var4427 = java.lang.CharacterName.get(sypet_var4426);return sypet_var4427;}
+     [java]                                                                                                                                               ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4429 = dna.length();int sypet_var4430 = java.lang.Character.charCount(sypet_var4429);java.lang.String sypet_var4431 = java.lang.CharacterName.get(sypet_var4430);return sypet_var4431;}
+     [java]                                                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4433 = dna.length();int sypet_var4434 = java.lang.Character.getNumericValue(sypet_var4433);java.lang.String sypet_var4435 = java.lang.CharacterName.get(sypet_var4434);return sypet_var4435;}
+     [java]                                                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4437 = dna.length();int sypet_var4438 = java.lang.Character.getType(sypet_var4437);java.lang.String sypet_var4439 = java.lang.CharacterName.get(sypet_var4438);return sypet_var4439;}
+     [java]                                                                                                                                           ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4441 = dna.length();int sypet_var4442 = java.lang.Character.toLowerCase(sypet_var4441);java.lang.String sypet_var4443 = java.lang.CharacterName.get(sypet_var4442);return sypet_var4443;}
+     [java]                                                                                                                                               ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4445 = dna.length();int sypet_var4446 = java.lang.Character.toUpperCase(sypet_var4445);java.lang.String sypet_var4447 = java.lang.CharacterName.get(sypet_var4446);return sypet_var4447;}
+     [java]                                                                                                                                               ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4449 = dna.length();int sypet_var4450 = java.lang.Integer.bitCount(sypet_var4449);java.lang.String sypet_var4451 = java.lang.CharacterName.get(sypet_var4450);return sypet_var4451;}
+     [java]                                                                                                                                          ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4465 = dna.length();int sypet_var4466 = java.lang.Integer.highestOneBit(sypet_var4465);java.lang.String sypet_var4467 = java.lang.CharacterName.get(sypet_var4466);return sypet_var4467;}
+     [java]                                                                                                                                               ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4477 = dna.length();int sypet_var4478 = java.lang.Integer.lowestOneBit(sypet_var4477);java.lang.String sypet_var4479 = java.lang.CharacterName.get(sypet_var4478);return sypet_var4479;}
+     [java]                                                                                                                                              ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4489 = dna.length();int sypet_var4490 = java.lang.Integer.numberOfLeadingZeros(sypet_var4489);java.lang.String sypet_var4491 = java.lang.CharacterName.get(sypet_var4490);return sypet_var4491;}
+     [java]                                                                                                                                                      ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4497 = dna.length();int sypet_var4498 = java.lang.Integer.numberOfTrailingZeros(sypet_var4497);java.lang.String sypet_var4499 = java.lang.CharacterName.get(sypet_var4498);return sypet_var4499;}
+     [java]                                                                                                                                                       ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4501 = dna.length();int sypet_var4502 = java.lang.Integer.reverseBytes(sypet_var4501);java.lang.String sypet_var4503 = java.lang.CharacterName.get(sypet_var4502);return sypet_var4503;}
+     [java]                                                                                                                                              ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4505 = dna.length();int sypet_var4506 = java.lang.Integer.reverse(sypet_var4505);java.lang.String sypet_var4507 = java.lang.CharacterName.get(sypet_var4506);return sypet_var4507;}
+     [java]                                                                                                                                         ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var4509 = dna.length();int sypet_var4510 = java.lang.Integer.signum(sypet_var4509);java.lang.String sypet_var4511 = java.lang.CharacterName.get(sypet_var4510);return sypet_var4511;}
+     [java]                                                                                                                                        ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var5569 = dna.length();int sypet_var5570 = java.lang.Math.abs(sypet_var5569);java.lang.String sypet_var5571 = java.lang.CharacterName.get(sypet_var5570);return sypet_var5571;}
+     [java]                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var5585 = dna.length();int sypet_var5586 = java.lang.StrictMath.abs(sypet_var5585);java.lang.String sypet_var5587 = java.lang.CharacterName.get(sypet_var5586);return sypet_var5587;}
+     [java]                                                                                                                                        ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.io.StringReader sypet_var6177 = new java.io.StringReader(dna);int sypet_var6178 = sypet_var6177.read();java.lang.String sypet_var6179 = java.lang.CharacterName.get(sypet_var6178);return sypet_var6179;}
+     [java]                                                                                                                                                       ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Byte sypet_var6269 = java.lang.Byte.valueOf(dna);int sypet_var6270 = sypet_var6269.intValue();java.lang.String sypet_var6271 = java.lang.CharacterName.get(sypet_var6270);return sypet_var6271;}
+     [java]                                                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Byte sypet_var6273 = java.lang.Byte.decode(dna);int sypet_var6274 = sypet_var6273.intValue();java.lang.String sypet_var6275 = java.lang.CharacterName.get(sypet_var6274);return sypet_var6275;}
+     [java]                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Byte sypet_var6277 = new java.lang.Byte(dna);int sypet_var6278 = sypet_var6277.intValue();java.lang.String sypet_var6279 = java.lang.CharacterName.get(sypet_var6278);return sypet_var6279;}
+     [java]                                                                                                                                               ^
+     [java] 1 error
+     [java] /Source.java:3: error: LambdaForm is not public in java.lang.invoke; cannot be accessed from outside package
+     [java] java.lang.Class sypet_var6821 = java.lang.Class.forName(dna);char sypet_var6822 = java.lang.invoke.LambdaForm.basicType(sypet_var6821);java.lang.String sypet_var6823 = java.lang.String.valueOf(sypet_var6822);return sypet_var6823;}
+     [java]                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Class sypet_var6829 = java.lang.Class.forName(dna);int sypet_var6830 = sypet_var6829.getModifiers();java.lang.String sypet_var6831 = java.lang.CharacterName.get(sypet_var6830);return sypet_var6831;}
+     [java]                                                                                                                                                         ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Double sypet_var7389 = java.lang.Double.valueOf(dna);int sypet_var7390 = sypet_var7389.intValue();java.lang.String sypet_var7391 = java.lang.CharacterName.get(sypet_var7390);return sypet_var7391;}
+     [java]                                                                                                                                                       ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Double sypet_var7397 = new java.lang.Double(dna);int sypet_var7398 = sypet_var7397.intValue();java.lang.String sypet_var7399 = java.lang.CharacterName.get(sypet_var7398);return sypet_var7399;}
+     [java]                                                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Float sypet_var7433 = java.lang.Float.valueOf(dna);int sypet_var7434 = sypet_var7433.intValue();java.lang.String sypet_var7435 = java.lang.CharacterName.get(sypet_var7434);return sypet_var7435;}
+     [java]                                                                                                                                                     ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Float sypet_var7497 = new java.lang.Float(dna);int sypet_var7498 = sypet_var7497.intValue();java.lang.String sypet_var7499 = java.lang.CharacterName.get(sypet_var7498);return sypet_var7499;}
+     [java]                                                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Integer sypet_var8049 = java.lang.Integer.decode(dna);int sypet_var8050 = sypet_var8049.intValue();java.lang.String sypet_var8051 = java.lang.CharacterName.get(sypet_var8050);return sypet_var8051;}
+     [java]                                                                                                                                                        ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Integer sypet_var8057 = java.lang.Integer.getInteger(dna);int sypet_var8058 = sypet_var8057.intValue();java.lang.String sypet_var8059 = java.lang.CharacterName.get(sypet_var8058);return sypet_var8059;}
+     [java]                                                                                                                                                            ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Integer sypet_var8061 = java.lang.Integer.valueOf(dna);int sypet_var8062 = sypet_var8061.intValue();java.lang.String sypet_var8063 = java.lang.CharacterName.get(sypet_var8062);return sypet_var8063;}
+     [java]                                                                                                                                                         ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Integer sypet_var8105 = new java.lang.Integer(dna);int sypet_var8106 = sypet_var8105.intValue();java.lang.String sypet_var8107 = java.lang.CharacterName.get(sypet_var8106);return sypet_var8107;}
+     [java]                                                                                                                                                     ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Long sypet_var8641 = java.lang.Long.decode(dna);int sypet_var8642 = sypet_var8641.intValue();java.lang.String sypet_var8643 = java.lang.CharacterName.get(sypet_var8642);return sypet_var8643;}
+     [java]                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Long sypet_var8661 = java.lang.Long.getLong(dna);int sypet_var8662 = sypet_var8661.intValue();java.lang.String sypet_var8663 = java.lang.CharacterName.get(sypet_var8662);return sypet_var8663;}
+     [java]                                                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Long sypet_var8681 = java.lang.Long.valueOf(dna);int sypet_var8682 = sypet_var8681.intValue();java.lang.String sypet_var8683 = java.lang.CharacterName.get(sypet_var8682);return sypet_var8683;}
+     [java]                                                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Long sypet_var8697 = new java.lang.Long(dna);int sypet_var8698 = sypet_var8697.intValue();java.lang.String sypet_var8699 = java.lang.CharacterName.get(sypet_var8698);return sypet_var8699;}
+     [java]                                                                                                                                               ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Short sypet_var9257 = java.lang.Short.decode(dna);int sypet_var9258 = sypet_var9257.intValue();java.lang.String sypet_var9259 = java.lang.CharacterName.get(sypet_var9258);return sypet_var9259;}
+     [java]                                                                                                                                                    ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Short sypet_var9277 = java.lang.Short.valueOf(dna);int sypet_var9278 = sypet_var9277.intValue();java.lang.String sypet_var9279 = java.lang.CharacterName.get(sypet_var9278);return sypet_var9279;}
+     [java]                                                                                                                                                     ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Short sypet_var9297 = new java.lang.Short(dna);int sypet_var9298 = sypet_var9297.intValue();java.lang.String sypet_var9299 = java.lang.CharacterName.get(sypet_var9298);return sypet_var9299;}
+     [java]                                                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var11081 = dna.intern();int sypet_var11082 = java.lang.Integer.parseInt(sypet_var11081);java.lang.String sypet_var11083 = java.lang.CharacterName.get(sypet_var11082);return sypet_var11083;}
+     [java]                                                                                                                                                           ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var11101 = dna.intern();int sypet_var11102 = sypet_var11101.length();java.lang.String sypet_var11103 = java.lang.CharacterName.get(sypet_var11102);return sypet_var11103;}
+     [java]                                                                                                                                        ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var11565 = dna.toLowerCase();int sypet_var11566 = java.lang.Integer.parseInt(sypet_var11565);java.lang.String sypet_var11567 = java.lang.CharacterName.get(sypet_var11566);return sypet_var11567;}
+     [java]                                                                                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var11585 = dna.toLowerCase();int sypet_var11586 = sypet_var11585.length();java.lang.String sypet_var11587 = java.lang.CharacterName.get(sypet_var11586);return sypet_var11587;}
+     [java]                                                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var11609 = dna.toUpperCase();int sypet_var11610 = java.lang.Integer.parseInt(sypet_var11609);java.lang.String sypet_var11611 = java.lang.CharacterName.get(sypet_var11610);return sypet_var11611;}
+     [java]                                                                                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var11629 = dna.toUpperCase();int sypet_var11630 = sypet_var11629.length();java.lang.String sypet_var11631 = java.lang.CharacterName.get(sypet_var11630);return sypet_var11631;}
+     [java]                                                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var11649 = dna.trim();int sypet_var11650 = java.lang.Integer.parseInt(sypet_var11649);java.lang.String sypet_var11651 = java.lang.CharacterName.get(sypet_var11650);return sypet_var11651;}
+     [java]                                                                                                                                                         ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var11669 = dna.trim();int sypet_var11670 = sypet_var11669.length();java.lang.String sypet_var11671 = java.lang.CharacterName.get(sypet_var11670);return sypet_var11671;}
+     [java]                                                                                                                                      ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var11717 = new java.lang.String(dna);int sypet_var11718 = java.lang.Integer.parseInt(sypet_var11717);java.lang.String sypet_var11719 = java.lang.CharacterName.get(sypet_var11718);return sypet_var11719;}
+     [java]                                                                                                                                                                        ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var12177 = new java.lang.String(dna);int sypet_var12178 = sypet_var12177.length();java.lang.String sypet_var12179 = java.lang.CharacterName.get(sypet_var12178);return sypet_var12179;}
+     [java]                                                                                                                                                     ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var12205 = java.lang.System.clearProperty(dna);int sypet_var12206 = java.lang.Integer.parseInt(sypet_var12205);java.lang.String sypet_var12207 = java.lang.CharacterName.get(sypet_var12206);return sypet_var12207;}
+     [java]                                                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var12225 = java.lang.System.clearProperty(dna);int sypet_var12226 = sypet_var12225.length();java.lang.String sypet_var12227 = java.lang.CharacterName.get(sypet_var12226);return sypet_var12227;}
+     [java]                                                                                                                                                               ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var12257 = java.lang.System.getProperty(dna);int sypet_var12258 = java.lang.Integer.parseInt(sypet_var12257);java.lang.String sypet_var12259 = java.lang.CharacterName.get(sypet_var12258);return sypet_var12259;}
+     [java]                                                                                                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var12277 = java.lang.System.getProperty(dna);int sypet_var12278 = sypet_var12277.length();java.lang.String sypet_var12279 = java.lang.CharacterName.get(sypet_var12278);return sypet_var12279;}
+     [java]                                                                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var12309 = java.lang.System.getenv(dna);int sypet_var12310 = java.lang.Integer.parseInt(sypet_var12309);java.lang.String sypet_var12311 = java.lang.CharacterName.get(sypet_var12310);return sypet_var12311;}
+     [java]                                                                                                                                                                           ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var12769 = java.lang.System.getenv(dna);int sypet_var12770 = sypet_var12769.length();java.lang.String sypet_var12771 = java.lang.CharacterName.get(sypet_var12770);return sypet_var12771;}
+     [java]                                                                                                                                                        ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var12793 = java.lang.System.mapLibraryName(dna);int sypet_var12794 = java.lang.Integer.parseInt(sypet_var12793);java.lang.String sypet_var12795 = java.lang.CharacterName.get(sypet_var12794);return sypet_var12795;}
+     [java]                                                                                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var12813 = java.lang.System.mapLibraryName(dna);int sypet_var12814 = sypet_var12813.length();java.lang.String sypet_var12815 = java.lang.CharacterName.get(sypet_var12814);return sypet_var12815;}
+     [java]                                                                                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.StringBuffer sypet_var18829 = new java.lang.StringBuffer(dna);int sypet_var18830 = sypet_var18829.capacity();java.lang.String sypet_var18831 = java.lang.CharacterName.get(sypet_var18830);return sypet_var18831;}
+     [java]                                                                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.StringBuffer sypet_var18853 = new java.lang.StringBuffer(dna);int sypet_var18854 = sypet_var18853.length();java.lang.String sypet_var18855 = java.lang.CharacterName.get(sypet_var18854);return sypet_var18855;}
+     [java]                                                                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.StringBuilder sypet_var18921 = new java.lang.StringBuilder(dna);int sypet_var18922 = sypet_var18921.capacity();java.lang.String sypet_var18923 = java.lang.CharacterName.get(sypet_var18922);return sypet_var18923;}
+     [java]                                                                                                                                                                     ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.StringBuilder sypet_var19385 = new java.lang.StringBuilder(dna);int sypet_var19386 = sypet_var19385.length();java.lang.String sypet_var19387 = java.lang.CharacterName.get(sypet_var19386);return sypet_var19387;}
+     [java]                                                                                                                                                                   ^
+     [java] 1 error
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Thread sypet_var19469 = new java.lang.Thread(dna);int sypet_var19470 = sypet_var19469.countStackFrames();java.lang.String sypet_var19471 = java.lang.CharacterName.get(sypet_var19470);return sypet_var19471;}
+     [java]                                                                                                                                                               ^
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] 1 error
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.Thread sypet_var19493 = new java.lang.Thread(dna);int sypet_var19494 = sypet_var19493.getPriority();java.lang.String sypet_var19495 = java.lang.CharacterName.get(sypet_var19494);return sypet_var19495;}
+     [java]                                                                                                                                                          ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.ThreadGroup sypet_var19997 = new java.lang.ThreadGroup(dna);int sypet_var19998 = sypet_var19997.getMaxPriority();java.lang.String sypet_var19999 = java.lang.CharacterName.get(sypet_var19998);return sypet_var19999;}
+     [java]                                                                                                                                                                       ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.ThreadGroup sypet_var20005 = new java.lang.ThreadGroup(dna);int sypet_var20006 = sypet_var20005.activeCount();java.lang.String sypet_var20007 = java.lang.CharacterName.get(sypet_var20006);return sypet_var20007;}
+     [java]                                                                                                                                                                    ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.ThreadGroup sypet_var20029 = new java.lang.ThreadGroup(dna);int sypet_var20030 = sypet_var20029.activeGroupCount();java.lang.String sypet_var20031 = java.lang.CharacterName.get(sypet_var20030);return sypet_var20031;}
+     [java]                                                                                                                                                                         ^
+     [java] 1 error
+     [java] /Source.java:3: error: MemberName is not public in java.lang.invoke; cannot be accessed from outside package
+     [java] java.lang.Class sypet_var20709 = java.lang.Class.forName(dna);java.lang.invoke.MemberName sypet_var20710 = new java.lang.invoke.MemberName(sypet_var20709);java.lang.String sypet_var20711 = sypet_var20710.getName();return sypet_var20711;}
+     [java]                                                                               ^
+     [java] /Source.java:3: error: MemberName is not public in java.lang.invoke; cannot be accessed from outside package
+     [java] java.lang.Class sypet_var20709 = java.lang.Class.forName(dna);java.lang.invoke.MemberName sypet_var20710 = new java.lang.invoke.MemberName(sypet_var20709);java.lang.String sypet_var20711 = sypet_var20710.getName();return sypet_var20711;}
+     [java]                                                                                                                                ^
+     [java] 2 errors
+     [java] /Source.java:3: error: MemberName is not public in java.lang.invoke; cannot be accessed from outside package
+     [java] java.lang.Class sypet_var20713 = java.lang.Class.forName(dna);java.lang.invoke.MemberName sypet_var20714 = new java.lang.invoke.MemberName(sypet_var20713);java.lang.String sypet_var20715 = sypet_var20714.getSignature();return sypet_var20715;}
+     [java]                                                                               ^
+     [java] /Source.java:3: error: MemberName is not public in java.lang.invoke; cannot be accessed from outside package
+     [java] java.lang.Class sypet_var20713 = java.lang.Class.forName(dna);java.lang.invoke.MemberName sypet_var20714 = new java.lang.invoke.MemberName(sypet_var20713);java.lang.String sypet_var20715 = sypet_var20714.getSignature();return sypet_var20715;}
+     [java]                                                                                                                                ^
+     [java] 2 errors
+     [java] /Source.java:3: error: LambdaForm is not public in java.lang.invoke; cannot be accessed from outside package
+     [java] java.lang.Class sypet_var20721 = java.lang.Class.forName(dna);java.lang.invoke.MethodType sypet_var20722 = java.lang.invoke.MethodType.methodType(sypet_var20721);java.lang.String sypet_var20723 = java.lang.invoke.LambdaForm.basicTypeSignature(sypet_var20722);return sypet_var20723;}
+     [java]                                                                                                                                                                                                                     ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] long sypet_var21189 = java.lang.Long.parseLong(dna);int sypet_var21190 = java.lang.Long.bitCount(sypet_var21189);java.lang.String sypet_var21191 = java.lang.CharacterName.get(sypet_var21190);return sypet_var21191;}
+     [java]                                                                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: LambdaForm is not public in java.lang.invoke; cannot be accessed from outside package
+     [java] int sypet_var21201 = dna.length();java.lang.invoke.MethodType sypet_var21202 = java.lang.invoke.MethodType.genericMethodType(sypet_var21201);java.lang.String sypet_var21203 = java.lang.invoke.LambdaForm.basicTypeSignature(sypet_var21202);return sypet_var21203;}
+     [java]                                                                                                                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: LambdaForm is not public in java.lang.invoke; cannot be accessed from outside package
+     [java] int sypet_var21205 = java.lang.Integer.parseInt(dna);java.lang.invoke.MethodType sypet_var21206 = java.lang.invoke.MethodType.genericMethodType(sypet_var21205);java.lang.String sypet_var21207 = java.lang.invoke.LambdaForm.basicTypeSignature(sypet_var21206);return sypet_var21207;}
+     [java]                                                                                                                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] long sypet_var22437 = java.lang.Long.parseLong(dna);int sypet_var22438 = java.lang.Long.numberOfLeadingZeros(sypet_var22437);java.lang.String sypet_var22439 = java.lang.CharacterName.get(sypet_var22438);return sypet_var22439;}
+     [java]                                                                                                                                                                         ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] long sypet_var22453 = java.lang.Long.parseLong(dna);int sypet_var22454 = java.lang.Long.numberOfTrailingZeros(sypet_var22453);java.lang.String sypet_var22455 = java.lang.CharacterName.get(sypet_var22454);return sypet_var22455;}
+     [java]                                                                                                                                                                          ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] long sypet_var22469 = java.lang.Long.parseLong(dna);int sypet_var22470 = java.lang.Long.signum(sypet_var22469);java.lang.String sypet_var22471 = java.lang.CharacterName.get(sypet_var22470);return sypet_var22471;}
+     [java]                                                                                                                                                           ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var24196 = dna.lastIndexOf(dna);java.lang.String sypet_var24197 = java.lang.CharacterName.get(sypet_var24196);return sypet_var24197;}
+     [java]                                                                                      ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var24207 = dna.indexOf(dna);java.lang.String sypet_var24208 = java.lang.CharacterName.get(sypet_var24207);return sypet_var24208;}
+     [java]                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var24226 = java.lang.reflect.Modifier.interfaceModifiers();int sypet_var24227 = java.lang.Integer.parseInt(dna,sypet_var24226);java.lang.String sypet_var24228 = java.lang.CharacterName.get(sypet_var24227);return sypet_var24228;}
+     [java]                                                                                                                                                                                     ^
+     [java] 1 error
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var24262 = java.lang.Thread.activeCount();int sypet_var24263 = java.lang.Integer.parseInt(dna,sypet_var24262);java.lang.String sypet_var24264 = java.lang.CharacterName.get(sypet_var24263);return sypet_var24264;}
+     [java]                                                                                                                                                                    ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var24726 = java.lang.Thread.activeCount();int sypet_var24727 = dna.codePointAt(sypet_var24726);java.lang.String sypet_var24728 = java.lang.CharacterName.get(sypet_var24727);return sypet_var24728;}
+     [java]                                                                                                                                                     ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var24746 = java.lang.Thread.activeCount();int sypet_var24747 = dna.codePointBefore(sypet_var24746);java.lang.String sypet_var24748 = java.lang.CharacterName.get(sypet_var24747);return sypet_var24748;}
+     [java]                                                                                                                                                         ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var24766 = java.lang.Thread.activeCount();int sypet_var24767 = dna.indexOf(sypet_var24766);java.lang.String sypet_var24768 = java.lang.CharacterName.get(sypet_var24767);return sypet_var24768;}
+     [java]                                                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var24786 = java.lang.Thread.activeCount();int sypet_var24787 = dna.lastIndexOf(sypet_var24786);java.lang.String sypet_var24788 = java.lang.CharacterName.get(sypet_var24787);return sypet_var24788;}
+     [java]                                                                                                                                                     ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var24826 = java.lang.reflect.Modifier.classModifiers();int sypet_var24827 = java.lang.Integer.parseInt(dna,sypet_var24826);java.lang.String sypet_var24828 = java.lang.CharacterName.get(sypet_var24827);return sypet_var24828;}
+     [java]                                                                                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var24850 = java.lang.reflect.Modifier.classModifiers();int sypet_var24851 = dna.codePointAt(sypet_var24850);java.lang.String sypet_var24852 = java.lang.CharacterName.get(sypet_var24851);return sypet_var24852;}
+     [java]                                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var25314 = java.lang.reflect.Modifier.classModifiers();int sypet_var25315 = dna.codePointBefore(sypet_var25314);java.lang.String sypet_var25316 = java.lang.CharacterName.get(sypet_var25315);return sypet_var25316;}
+     [java]                                                                                                                                                                      ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var25334 = java.lang.reflect.Modifier.classModifiers();int sypet_var25335 = dna.indexOf(sypet_var25334);java.lang.String sypet_var25336 = java.lang.CharacterName.get(sypet_var25335);return sypet_var25336;}
+     [java]                                                                                                                                                              ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var25350 = java.lang.reflect.Modifier.classModifiers();int sypet_var25351 = dna.lastIndexOf(sypet_var25350);java.lang.String sypet_var25352 = java.lang.CharacterName.get(sypet_var25351);return sypet_var25352;}
+     [java]                                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var25390 = java.lang.reflect.Modifier.constructorModifiers();int sypet_var25391 = java.lang.Integer.parseInt(dna,sypet_var25390);java.lang.String sypet_var25392 = java.lang.CharacterName.get(sypet_var25391);return sypet_var25392;}
+     [java]                                                                                                                                                                                       ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var25414 = java.lang.reflect.Modifier.constructorModifiers();int sypet_var25415 = dna.codePointAt(sypet_var25414);java.lang.String sypet_var25416 = java.lang.CharacterName.get(sypet_var25415);return sypet_var25416;}
+     [java]                                                                                                                                                                        ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var25434 = java.lang.reflect.Modifier.constructorModifiers();int sypet_var25435 = dna.codePointBefore(sypet_var25434);java.lang.String sypet_var25436 = java.lang.CharacterName.get(sypet_var25435);return sypet_var25436;}
+     [java]                                                                                                                                                                            ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var25454 = java.lang.reflect.Modifier.constructorModifiers();int sypet_var25455 = dna.indexOf(sypet_var25454);java.lang.String sypet_var25456 = java.lang.CharacterName.get(sypet_var25455);return sypet_var25456;}
+     [java]                                                                                                                                                                    ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var25914 = java.lang.reflect.Modifier.constructorModifiers();int sypet_var25915 = dna.lastIndexOf(sypet_var25914);java.lang.String sypet_var25916 = java.lang.CharacterName.get(sypet_var25915);return sypet_var25916;}
+     [java]                                                                                                                                                                        ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var25950 = java.lang.reflect.Modifier.fieldModifiers();int sypet_var25951 = java.lang.Integer.parseInt(dna,sypet_var25950);java.lang.String sypet_var25952 = java.lang.CharacterName.get(sypet_var25951);return sypet_var25952;}
+     [java]                                                                                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var25974 = java.lang.reflect.Modifier.fieldModifiers();int sypet_var25975 = dna.codePointAt(sypet_var25974);java.lang.String sypet_var25976 = java.lang.CharacterName.get(sypet_var25975);return sypet_var25976;}
+     [java]                                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var25998 = java.lang.reflect.Modifier.fieldModifiers();int sypet_var25999 = dna.codePointBefore(sypet_var25998);java.lang.String sypet_var26000 = java.lang.CharacterName.get(sypet_var25999);return sypet_var26000;}
+     [java]                                                                                                                                                                      ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var26018 = java.lang.reflect.Modifier.fieldModifiers();int sypet_var26019 = dna.indexOf(sypet_var26018);java.lang.String sypet_var26020 = java.lang.CharacterName.get(sypet_var26019);return sypet_var26020;}
+     [java]                                                                                                                                                              ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var26034 = java.lang.reflect.Modifier.fieldModifiers();int sypet_var26035 = dna.lastIndexOf(sypet_var26034);java.lang.String sypet_var26036 = java.lang.CharacterName.get(sypet_var26035);return sypet_var26036;}
+     [java]                                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var26530 = java.lang.reflect.Modifier.interfaceModifiers();int sypet_var26531 = dna.codePointAt(sypet_var26530);java.lang.String sypet_var26532 = java.lang.CharacterName.get(sypet_var26531);return sypet_var26532;}
+     [java]                                                                                                                                                                      ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var26550 = java.lang.reflect.Modifier.interfaceModifiers();int sypet_var26551 = dna.codePointBefore(sypet_var26550);java.lang.String sypet_var26552 = java.lang.CharacterName.get(sypet_var26551);return sypet_var26552;}
+     [java]                                                                                                                                                                          ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var26570 = java.lang.reflect.Modifier.interfaceModifiers();int sypet_var26571 = dna.indexOf(sypet_var26570);java.lang.String sypet_var26572 = java.lang.CharacterName.get(sypet_var26571);return sypet_var26572;}
+     [java]                                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var26586 = java.lang.reflect.Modifier.interfaceModifiers();int sypet_var26587 = dna.lastIndexOf(sypet_var26586);java.lang.String sypet_var26588 = java.lang.CharacterName.get(sypet_var26587);return sypet_var26588;}
+     [java]                                                                                                                                                                      ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var26626 = java.lang.reflect.Modifier.methodModifiers();int sypet_var26627 = java.lang.Integer.parseInt(dna,sypet_var26626);java.lang.String sypet_var26628 = java.lang.CharacterName.get(sypet_var26627);return sypet_var26628;}
+     [java]                                                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var26650 = java.lang.reflect.Modifier.methodModifiers();int sypet_var26651 = dna.codePointAt(sypet_var26650);java.lang.String sypet_var26652 = java.lang.CharacterName.get(sypet_var26651);return sypet_var26652;}
+     [java]                                                                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var26670 = java.lang.reflect.Modifier.methodModifiers();int sypet_var26671 = dna.codePointBefore(sypet_var26670);java.lang.String sypet_var26672 = java.lang.CharacterName.get(sypet_var26671);return sypet_var26672;}
+     [java]                                                                                                                                                                       ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var27130 = java.lang.reflect.Modifier.methodModifiers();int sypet_var27131 = dna.indexOf(sypet_var27130);java.lang.String sypet_var27132 = java.lang.CharacterName.get(sypet_var27131);return sypet_var27132;}
+     [java]                                                                                                                                                               ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var27150 = java.lang.reflect.Modifier.methodModifiers();int sypet_var27151 = dna.lastIndexOf(sypet_var27150);java.lang.String sypet_var27152 = java.lang.CharacterName.get(sypet_var27151);return sypet_var27152;}
+     [java]                                                                                                                                                                   ^
+     [java] 1 error
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var27722 = new java.lang.String();int sypet_var27723 = sypet_var27722.indexOf(dna);java.lang.String sypet_var27724 = java.lang.CharacterName.get(sypet_var27723);return sypet_var27724;}
+     [java]                                                                                                                                                      ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var27722 = new java.lang.String();int sypet_var27723 = dna.indexOf(sypet_var27722);java.lang.String sypet_var27724 = java.lang.CharacterName.get(sypet_var27723);return sypet_var27724;}
+     [java]                                                                                                                                                      ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var27742 = new java.lang.String();int sypet_var27743 = sypet_var27742.lastIndexOf(dna);java.lang.String sypet_var27744 = java.lang.CharacterName.get(sypet_var27743);return sypet_var27744;}
+     [java]                                                                                                                                                          ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var27742 = new java.lang.String();int sypet_var27743 = dna.lastIndexOf(sypet_var27742);java.lang.String sypet_var27744 = java.lang.CharacterName.get(sypet_var27743);return sypet_var27744;}
+     [java]                                                                                                                                                          ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var27774 = java.lang.System.lineSeparator();int sypet_var27775 = sypet_var27774.indexOf(dna);java.lang.String sypet_var27776 = java.lang.CharacterName.get(sypet_var27775);return sypet_var27776;}
+     [java]                                                                                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var27774 = java.lang.System.lineSeparator();int sypet_var27775 = dna.indexOf(sypet_var27774);java.lang.String sypet_var27776 = java.lang.CharacterName.get(sypet_var27775);return sypet_var27776;}
+     [java]                                                                                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var27794 = java.lang.System.lineSeparator();int sypet_var27795 = sypet_var27794.lastIndexOf(dna);java.lang.String sypet_var27796 = java.lang.CharacterName.get(sypet_var27795);return sypet_var27796;}
+     [java]                                                                                                                                                                    ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.String sypet_var27794 = java.lang.System.lineSeparator();int sypet_var27795 = dna.lastIndexOf(sypet_var27794);java.lang.String sypet_var27796 = java.lang.CharacterName.get(sypet_var27795);return sypet_var27796;}
+     [java]                                                                                                                                                                    ^
+     [java] 1 error
+     [java] /Source.java:3: error: Number is abstract; cannot be instantiated
+     [java] java.lang.Number sypet_var30194 = new java.lang.Number();int sypet_var30195 = sypet_var30194.intValue();java.lang.String sypet_var30196 = dna.substring(sypet_var30195);return sypet_var30196;}
+     [java]                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: Process is abstract; cannot be instantiated
+     [java] java.lang.Process sypet_var30202 = new java.lang.Process();int sypet_var30203 = sypet_var30202.exitValue();java.lang.String sypet_var30204 = dna.substring(sypet_var30203);return sypet_var30204;}
+     [java]                                    ^
+     [java] 1 error
+     [java] /Source.java:3: error: Process is abstract; cannot be instantiated
+     [java] java.lang.Process sypet_var30206 = new java.lang.Process();int sypet_var30207 = sypet_var30206.waitFor();java.lang.String sypet_var30208 = dna.substring(sypet_var30207);return sypet_var30208;}
+     [java]                                    ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31386 = java.lang.Thread.activeCount();java.lang.String sypet_var31387 = java.lang.CharacterName.get(sypet_var31386);java.lang.String sypet_var31388 = sypet_var31387.concat(dna);return sypet_var31388;}
+     [java]                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31386 = java.lang.Thread.activeCount();java.lang.String sypet_var31387 = java.lang.CharacterName.get(sypet_var31386);java.lang.String sypet_var31388 = dna.concat(sypet_var31387);return sypet_var31388;}
+     [java]                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31410 = java.lang.Thread.activeCount();java.lang.String sypet_var31411 = java.lang.CharacterName.get(sypet_var31410);java.lang.String sypet_var31412 = java.lang.System.getProperty(sypet_var31411,dna);return sypet_var31412;}
+     [java]                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31410 = java.lang.Thread.activeCount();java.lang.String sypet_var31411 = java.lang.CharacterName.get(sypet_var31410);java.lang.String sypet_var31412 = java.lang.System.getProperty(dna,sypet_var31411);return sypet_var31412;}
+     [java]                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31434 = java.lang.Thread.activeCount();java.lang.String sypet_var31435 = java.lang.CharacterName.get(sypet_var31434);java.lang.String sypet_var31436 = java.lang.System.setProperty(sypet_var31435,dna);return sypet_var31436;}
+     [java]                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31434 = java.lang.Thread.activeCount();java.lang.String sypet_var31435 = java.lang.CharacterName.get(sypet_var31434);java.lang.String sypet_var31436 = java.lang.System.setProperty(dna,sypet_var31435);return sypet_var31436;}
+     [java]                                                                                                ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31458 = java.lang.reflect.Modifier.classModifiers();java.lang.String sypet_var31459 = java.lang.CharacterName.get(sypet_var31458);java.lang.String sypet_var31460 = sypet_var31459.concat(dna);return sypet_var31460;}
+     [java]                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31458 = java.lang.reflect.Modifier.classModifiers();java.lang.String sypet_var31459 = java.lang.CharacterName.get(sypet_var31458);java.lang.String sypet_var31460 = dna.concat(sypet_var31459);return sypet_var31460;}
+     [java]                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31922 = java.lang.reflect.Modifier.classModifiers();java.lang.String sypet_var31923 = java.lang.CharacterName.get(sypet_var31922);java.lang.String sypet_var31924 = java.lang.System.getProperty(sypet_var31923,dna);return sypet_var31924;}
+     [java]                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31922 = java.lang.reflect.Modifier.classModifiers();java.lang.String sypet_var31923 = java.lang.CharacterName.get(sypet_var31922);java.lang.String sypet_var31924 = java.lang.System.getProperty(dna,sypet_var31923);return sypet_var31924;}
+     [java]                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31946 = java.lang.reflect.Modifier.classModifiers();java.lang.String sypet_var31947 = java.lang.CharacterName.get(sypet_var31946);java.lang.String sypet_var31948 = java.lang.System.setProperty(sypet_var31947,dna);return sypet_var31948;}
+     [java]                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31946 = java.lang.reflect.Modifier.classModifiers();java.lang.String sypet_var31947 = java.lang.CharacterName.get(sypet_var31946);java.lang.String sypet_var31948 = java.lang.System.setProperty(dna,sypet_var31947);return sypet_var31948;}
+     [java]                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31970 = java.lang.reflect.Modifier.constructorModifiers();java.lang.String sypet_var31971 = java.lang.CharacterName.get(sypet_var31970);java.lang.String sypet_var31972 = sypet_var31971.concat(dna);return sypet_var31972;}
+     [java]                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31970 = java.lang.reflect.Modifier.constructorModifiers();java.lang.String sypet_var31971 = java.lang.CharacterName.get(sypet_var31970);java.lang.String sypet_var31972 = dna.concat(sypet_var31971);return sypet_var31972;}
+     [java]                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31998 = java.lang.reflect.Modifier.constructorModifiers();java.lang.String sypet_var31999 = java.lang.CharacterName.get(sypet_var31998);java.lang.String sypet_var32000 = java.lang.System.getProperty(sypet_var31999,dna);return sypet_var32000;}
+     [java]                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var31998 = java.lang.reflect.Modifier.constructorModifiers();java.lang.String sypet_var31999 = java.lang.CharacterName.get(sypet_var31998);java.lang.String sypet_var32000 = java.lang.System.getProperty(dna,sypet_var31999);return sypet_var32000;}
+     [java]                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32022 = java.lang.reflect.Modifier.constructorModifiers();java.lang.String sypet_var32023 = java.lang.CharacterName.get(sypet_var32022);java.lang.String sypet_var32024 = java.lang.System.setProperty(sypet_var32023,dna);return sypet_var32024;}
+     [java]                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32022 = java.lang.reflect.Modifier.constructorModifiers();java.lang.String sypet_var32023 = java.lang.CharacterName.get(sypet_var32022);java.lang.String sypet_var32024 = java.lang.System.setProperty(dna,sypet_var32023);return sypet_var32024;}
+     [java]                                                                                                                   ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32046 = java.lang.reflect.Modifier.fieldModifiers();java.lang.String sypet_var32047 = java.lang.CharacterName.get(sypet_var32046);java.lang.String sypet_var32048 = sypet_var32047.concat(dna);return sypet_var32048;}
+     [java]                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32046 = java.lang.reflect.Modifier.fieldModifiers();java.lang.String sypet_var32047 = java.lang.CharacterName.get(sypet_var32046);java.lang.String sypet_var32048 = dna.concat(sypet_var32047);return sypet_var32048;}
+     [java]                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32070 = java.lang.reflect.Modifier.fieldModifiers();java.lang.String sypet_var32071 = java.lang.CharacterName.get(sypet_var32070);java.lang.String sypet_var32072 = java.lang.System.getProperty(sypet_var32071,dna);return sypet_var32072;}
+     [java]                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32070 = java.lang.reflect.Modifier.fieldModifiers();java.lang.String sypet_var32071 = java.lang.CharacterName.get(sypet_var32070);java.lang.String sypet_var32072 = java.lang.System.getProperty(dna,sypet_var32071);return sypet_var32072;}
+     [java]                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32534 = java.lang.reflect.Modifier.fieldModifiers();java.lang.String sypet_var32535 = java.lang.CharacterName.get(sypet_var32534);java.lang.String sypet_var32536 = java.lang.System.setProperty(sypet_var32535,dna);return sypet_var32536;}
+     [java]                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32534 = java.lang.reflect.Modifier.fieldModifiers();java.lang.String sypet_var32535 = java.lang.CharacterName.get(sypet_var32534);java.lang.String sypet_var32536 = java.lang.System.setProperty(dna,sypet_var32535);return sypet_var32536;}
+     [java]                                                                                                             ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32558 = java.lang.reflect.Modifier.interfaceModifiers();java.lang.String sypet_var32559 = java.lang.CharacterName.get(sypet_var32558);java.lang.String sypet_var32560 = sypet_var32559.concat(dna);return sypet_var32560;}
+     [java]                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32558 = java.lang.reflect.Modifier.interfaceModifiers();java.lang.String sypet_var32559 = java.lang.CharacterName.get(sypet_var32558);java.lang.String sypet_var32560 = dna.concat(sypet_var32559);return sypet_var32560;}
+     [java]                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32582 = java.lang.reflect.Modifier.interfaceModifiers();java.lang.String sypet_var32583 = java.lang.CharacterName.get(sypet_var32582);java.lang.String sypet_var32584 = java.lang.System.getProperty(sypet_var32583,dna);return sypet_var32584;}
+     [java]                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32582 = java.lang.reflect.Modifier.interfaceModifiers();java.lang.String sypet_var32583 = java.lang.CharacterName.get(sypet_var32582);java.lang.String sypet_var32584 = java.lang.System.getProperty(dna,sypet_var32583);return sypet_var32584;}
+     [java]                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32606 = java.lang.reflect.Modifier.interfaceModifiers();java.lang.String sypet_var32607 = java.lang.CharacterName.get(sypet_var32606);java.lang.String sypet_var32608 = java.lang.System.setProperty(sypet_var32607,dna);return sypet_var32608;}
+     [java]                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32606 = java.lang.reflect.Modifier.interfaceModifiers();java.lang.String sypet_var32607 = java.lang.CharacterName.get(sypet_var32606);java.lang.String sypet_var32608 = java.lang.System.setProperty(dna,sypet_var32607);return sypet_var32608;}
+     [java]                                                                                                                 ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32630 = java.lang.reflect.Modifier.methodModifiers();java.lang.String sypet_var32631 = java.lang.CharacterName.get(sypet_var32630);java.lang.String sypet_var32632 = sypet_var32631.concat(dna);return sypet_var32632;}
+     [java]                                                                                                              ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32630 = java.lang.reflect.Modifier.methodModifiers();java.lang.String sypet_var32631 = java.lang.CharacterName.get(sypet_var32630);java.lang.String sypet_var32632 = dna.concat(sypet_var32631);return sypet_var32632;}
+     [java]                                                                                                              ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32654 = java.lang.reflect.Modifier.methodModifiers();java.lang.String sypet_var32655 = java.lang.CharacterName.get(sypet_var32654);java.lang.String sypet_var32656 = java.lang.System.getProperty(sypet_var32655,dna);return sypet_var32656;}
+     [java]                                                                                                              ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var32654 = java.lang.reflect.Modifier.methodModifiers();java.lang.String sypet_var32655 = java.lang.CharacterName.get(sypet_var32654);java.lang.String sypet_var32656 = java.lang.System.getProperty(dna,sypet_var32655);return sypet_var32656;}
+     [java]                                                                                                              ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var33118 = java.lang.reflect.Modifier.methodModifiers();java.lang.String sypet_var33119 = java.lang.CharacterName.get(sypet_var33118);java.lang.String sypet_var33120 = java.lang.System.setProperty(sypet_var33119,dna);return sypet_var33120;}
+     [java]                                                                                                              ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] int sypet_var33118 = java.lang.reflect.Modifier.methodModifiers();java.lang.String sypet_var33119 = java.lang.CharacterName.get(sypet_var33118);java.lang.String sypet_var33120 = java.lang.System.setProperty(dna,sypet_var33119);return sypet_var33120;}
+     [java]                                                                                                              ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.StringBuffer sypet_var33158 = new java.lang.StringBuffer();int sypet_var33159 = sypet_var33158.indexOf(dna);java.lang.String sypet_var33160 = java.lang.CharacterName.get(sypet_var33159);return sypet_var33160;}
+     [java]                                                                                                                                                                  ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.StringBuffer sypet_var33182 = new java.lang.StringBuffer();int sypet_var33183 = sypet_var33182.lastIndexOf(dna);java.lang.String sypet_var33184 = java.lang.CharacterName.get(sypet_var33183);return sypet_var33184;}
+     [java]                                                                                                                                                                      ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.StringBuilder sypet_var33254 = new java.lang.StringBuilder();int sypet_var33255 = sypet_var33254.indexOf(dna);java.lang.String sypet_var33256 = java.lang.CharacterName.get(sypet_var33255);return sypet_var33256;}
+     [java]                                                                                                                                                                    ^
+     [java] 1 error
+     [java] /Source.java:3: error: CharacterName is not public in java.lang; cannot be accessed from outside package
+     [java] java.lang.StringBuilder sypet_var33718 = new java.lang.StringBuilder();int sypet_var33719 = sypet_var33718.lastIndexOf(dna);java.lang.String sypet_var33720 = java.lang.CharacterName.get(sypet_var33719);return sypet_var33720;}
+     [java]                                                                                                                                                                        ^
+     [java] 1 error
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] /Source.java:3: error: LambdaForm is not public in java.lang.invoke; cannot be accessed from outside package
+     [java] java.lang.ClassLoader sypet_var34338 = java.lang.ClassLoader.getSystemClassLoader();java.lang.invoke.MethodType sypet_var34339 = java.lang.invoke.MethodType.fromMethodDescriptorString(dna,sypet_var34338);java.lang.String sypet_var34340 = java.lang.invoke.LambdaForm.basicTypeSignature(sypet_var34339);return sypet_var34340;}
+     [java]                                                                                                                                                                                                                                                               ^
+     [java] 1 error
+     [java] java.lang.Exception: Stack trace
+     [java] 	at java.lang.Thread.dumpStack(Thread.java:1336)
+     [java] 	at Source.dnaToRna(Source.java:3)
+     [java] 	at Source.test0(Source.java:4)
+     [java] 	at Source.test(Source.java:4)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
+     [java] 	at edu.utexas.sypet.synthesis.SypetTestUtil.runTest(SypetTestUtil.java:70)
+     [java] 	at edu.utexas.sypet.Experiment.main(Experiment.java:283)
+
+BUILD FAILED
+/home/kas/projects/sypet/build.xml:43: Java returned: 63
+
+Total time: 1 minute 52 seconds

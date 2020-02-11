@@ -1,0 +1,76 @@
+Buildfile: /home/kas/projects/sypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 120000
+     [java] Round Robin: true
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/codewars/8/benchmark8.json
+     [java] Benchmark Id: 8
+     [java] Method name: bonusTime
+     [java] Packages: [java.lang]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.lang.Integer, java.lang.Boolean]
+     [java] Target type: java.lang.String
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] #Classes: 375
+     [java] #Methods: 3678
+     [java] Soot Time: 3667.81637
+     [java] PetriNet for path length: 1 [places: 361 ; transitions: 2280 ; edges: 5408]
+     [java] PetriNet for path length: 2 [places: 361 ; transitions: 2280 ; edges: 5408]
+     [java] PetriNet for path length: 3 [places: 361 ; transitions: 2280 ; edges: 5408]
+     [java] PetriNet for path length: 4 [places: 361 ; transitions: 2280 ; edges: 5408]
+     [java] PetriNet for path length: 5 [places: 361 ; transitions: 2280 ; edges: 5408]
+     [java] PetriNet for path length: 6 [places: 361 ; transitions: 2280 ; edges: 5408]
+     [java] PetriNet for path length: 7 [places: 361 ; transitions: 2280 ; edges: 5408]
+     [java] /Source.java:3: error: LambdaForm is not public in java.lang.invoke; cannot be accessed from outside package
+     [java] boolean sypet_var15 = bonus.booleanValue();int sypet_var16 = salary.intValue();java.lang.invoke.MethodType sypet_var17 = java.lang.invoke.MethodType.genericMethodType(sypet_var16,sypet_var15);java.lang.String sypet_var18 = java.lang.invoke.LambdaForm.basicTypeSignature(sypet_var17);return sypet_var18;}
+     [java]                                                                                                                                                                                                                                                ^
+     [java] 1 error
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+
+BUILD FAILED
+/home/kas/projects/sypet/build.xml:43: Java returned: 16
+
+Total time: 19 seconds
