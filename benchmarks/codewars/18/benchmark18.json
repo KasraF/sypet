@@ -2,7 +2,7 @@
   "id": 18,
   "methodName": "rot",
   "paramNames": [
-    "s"
+    "n", "s"
   ],
   "srcTypes": [
     "java.lang.Integer",
